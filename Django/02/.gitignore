@@ -1,0 +1,20 @@
+# Django
+db.sqlite3
+*.pyc
+__pycache__/
+media/
+staticfiles/
+
+# Environment
+.env
+venv/
+.venv/
+
+# IDE
+.idea/
+
+# macOS
+.DS_Store
+
+# Poetry
+poetry.lock
