@@ -1,0 +1,20 @@
+# Ignore everything at root level
+/*
+
+# But keep this file
+!.gitignore
+
+# Allow only assignment folders
+!Django/
+!Flask/
+!FastAPI/
+
+# Ignore these inside any assignment folder
+**/__pycache__/
+**/*.pyc
+**/db.sqlite3
+**/.env
+**/.venv/
+**/.idea/
+**/.DS_Store
+**/poetry.lock
