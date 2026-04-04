@@ -42,7 +42,13 @@ INSTALLED_APPS = [
     "django.contrib.messages",
     "django.contrib.staticfiles",
     "todo",
+    "users",
 ]
+
+# login / logout
+LOGIN_REDIRECT_URL = '/todo/' # Redirect to TO DO LIST page after logging in
+LOGOUT_REDIRECT_URL = '/accounts/login/' # Redirect to LOGIN page after logging out
+
 
 MIDDLEWARE = [
     "django.middleware.security.SecurityMiddleware",
